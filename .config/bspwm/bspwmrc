@@ -10,23 +10,20 @@ if xhost >& /dev/null ; then echo "Display exists, starting..."
 	pulseeffects --gapplication-service &
 	
 	# Display setup	
-	#bspc monitor -d    
-	bspc monitor -d firefox terminals discord other
+	bspc monitor -d brows term apps other
 	bspc config active_border_color           \#292A2E
 		bspc config focused_border_color  \#303136
 		bspc config normal_border_color   \#292A2E
 		bspc config focus_follows_pointer true
-	bspc config border_width         0
+	bspc config border_width         10
 	bspc config window_gap           12
 	bspc config split_ratio          0.52
 	bspc config borderless_monocle   true
 	bspc config gapless_monocle      true
 	
 	# Program order
-	bspc rule -a Yad state=floating
-	bspc rule -a Chromium desktop='^1' state=monocle
+	bspc rule -a Yad state=floating border=off
 	bspc rule -a discord state=floating border=off
-	bspc rule -a Termite border=off
 	bspc rule -a Firefox border=off
 else echo "Display invalid"; 
 fi
