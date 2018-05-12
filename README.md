@@ -9,6 +9,7 @@ Teal is a dotfiles repository for my Linux teal (btw I use Arch) rice. <br />
 - Compton config
 - ZSH shell modified powerlevel9k theme
 - [baskervile/bspwm](https://github.com/baskerville/bspwm) (Windows Manager)
+- Custom firefox and archlinux.org CSS
 - Wallpaper below<br />
 
 ## Image preview 1. General look
