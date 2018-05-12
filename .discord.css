@@ -1,0 +1,33 @@
+.medium-2wqF9d
+{ display: none !important; mask: none !important; }
+
+*,
+body,
+.card-FDVird:before,
+.guilds-wrapper .guilds .guild.unread:before,
+.guilds-wrapper .guilds .guild.selected:before,
+.chat .messages-wrapper .scroller-wrap,
+
+/* Scrollbars*/
+::-webkit-scrollbar-track-piece,
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active,
+
+/* Toggle buttons */
+.themeDefault-24hCdX.sizeDefault-2YlOZr:after
+{ border-radius: unset !important; }
+
+/* User icons */
+.mask-3OgeRz,
+.assetsLargeMaskProfile-1Qkfen
+{ -webkit-mask: unset !important; }
+
+/* Codeblock font */
+.theme-dark .message-group .comment .markup code.inline,
+.theme-dark .message-group .comment .markup pre code
+{ font-family: "Roboto", monospace !important; }
+
+/* Global font */
+div[class*="appMount-"] 
+{ font-family: "Roboto", sans-serif !important; }
