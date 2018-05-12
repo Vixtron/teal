@@ -13,12 +13,12 @@ Teal is a dotfiles repository for my Linux teal (btw I use Arch) rice. <br />
 
 ## Image preview 1. General look
 
-[img1](https://github.com/Vixtron/teal/blob/master/.images/Workspace1.png)
+![img1](https://github.com/Vixtron/teal/blob/master/.images/Workspace1.png)
 
-[img2](https://github.com/Vixtron/teal/blob/master/.images/Workspace2.png)
+![img2](https://github.com/Vixtron/teal/blob/master/.images/Workspace2.png)
 
-[img3](https://github.com/Vixtron/teal/blob/master/.images/Workspace3.png)
+![img3](https://github.com/Vixtron/teal/blob/master/.images/Workspace3.png)
 
 ## Image preview 2. Discord
 
-[img3](https://github.com/Vixtron/teal/blob/master/.images/Discord.png)
+![img3](https://github.com/Vixtron/teal/blob/master/.images/Discord.png)
