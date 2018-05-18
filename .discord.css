@@ -11,7 +11,8 @@ body,
 .card-FDVird:before,
 .guild.unread:before,
 .guild.selected:before,
-/*.chat .messages-wrapper */.scroller-wrap,
+.scroller-wrap,
+.search-bar.search-bar-light .search-bar-inner,
 
 /* Scrollbars*/
 ::-webkit-scrollbar-track-piece,
@@ -76,6 +77,5 @@ h1[class*="title-"],
 h1[class*="old-h1"],
 h2[class*="title-"],
 h5[class*="title-"],
-input[class*="quickMessage-"],
 span[class*="timestamp"]
 { font-family: "Roboto Condensed", sans-serif !important; }
