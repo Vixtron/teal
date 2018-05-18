@@ -9,9 +9,9 @@ body,
 .valueChecked-m-4IJZ.sizeDefault-2YlOZr:after,
 .value-2hFrkk:after,
 .card-FDVird:before,
-.guilds-wrapper .guilds .guild.unread:before,
-.guilds-wrapper .guilds .guild.selected:before,
-.chat .messages-wrapper .scroller-wrap,
+.guild.unread:before,
+.guild.selected:before,
+/*.chat .messages-wrapper */.scroller-wrap,
 
 /* Scrollbars*/
 ::-webkit-scrollbar-track-piece,
@@ -22,6 +22,9 @@ body,
 /* Toggle buttons */
 .themeDefault-24hCdX.sizeDefault-2YlOZr:after
 { border-radius: unset !important; }
+
+.guild.selected:before
+{ height: 50px !important; margin-top: -25px !important; }
 
 /* User icons */
 div[class*="mask-"],
@@ -49,16 +52,15 @@ div[class*="textRow-"]
 
 /* Divs */
 .private-channels header,
+div[class*="total-results"],
 div[class*="membersGroup-"],
 div[class*="header-2N-"],
 div[class*="friends-online"]
 { font-family: "Roboto Condensed", bold !important; font-weight: bold !important; letter-spacing: 0px !important; cursor: default !important; }
 
+div[class*="typing-"],
 div[class*="friends-table-header"],
 div[class*="headerText-"],
-div[class*="topic-"],
-div[class*="medium-"],
-div[class*="typing-"],
 div[class*="activityText-"],
 div[class*="body-"],
 div[class*="channelSeparator-"],
@@ -66,7 +68,6 @@ div[class*="nameDefault-"],
 div[class*="nameHovered-"],
 div[class*="nameCollapsed-"],
 div[class*="nameHoveredCollapsed-"],
-div[class*="total-results"],
 div[class*="header-"],
 div[class*="title-3pkaKd title-23FrqZ"],
 
@@ -78,7 +79,3 @@ h5[class*="title-"],
 input[class*="quickMessage-"],
 span[class*="timestamp"]
 { font-family: "Roboto Condensed", sans-serif !important; }
-
-/* User channel status icon */
-.title-3qD0b- .status
-{ top: 0px !important; }
