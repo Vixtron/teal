@@ -24,21 +24,24 @@ body,
 { border-radius: unset !important; }
 
 /* User icons */
-.mask-3OgeRz,
-.assetsLargeMaskProfile-1Qkfen
+div[class*="mask-"],
+div[class*="assetsLargeMaskProfile-"]
 { -webkit-mask: unset !important; }
 
 /* Codeblock font */
-.theme-dark .message-group .comment .markup code.inline,
-.theme-dark .message-group .comment .markup pre code
+code[class*="scrollbarGhost-"],
+code[class*="scrollbar-"]
 { font-family: "Roboto Mono", monospace !important; }
 
 /* Global fonts */
 div[class*="roleName-"],
-div[class*="appMount-"]
+div[class*="appMount-"],
+div[class*="connectedAccountName-"],
+div[class*="listName-"]
 { font-family: "Roboto", sans-serif !important; }
 
 /* Divs */
+div[class*="headerText-"],
 div[class*="topic-"],
 div[class*="medium-"],
 div[class*="typing-"],
@@ -49,8 +52,12 @@ div[class*="channelSeparator-"],
 div[class*="title-"],
 div[class*="friends-online"],
 div[class*="nameDefault-"],
+div[class*="nameHovered-"],
+div[class*="nameCollapsed-"],
+div[class*="nameHoveredCollapsed-"],
 
 /* Other */
+h5[class*="title-"],
 input[class*="quickMessage-"],
 span[class*="timestamp"],
 textarea[class*="textArea-"]
