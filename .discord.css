@@ -43,32 +43,42 @@ div[class*="headerName-"],
 div[class*="headerTag-"],
 div[class*="public-DraftStyleDefault-block"],
 div[class*="headerTabBarWrapper-"],
-div[class*="title-"]
+div[class*="title-"],
+div[class*="textRow-"]
 { font-family: "Roboto", sans-serif !important; }
 
 /* Divs */
+.private-channels header,
+div[class*="membersGroup-"],
+div[class*="header-2N-"],
+div[class*="friends-online"]
+{ font-family: "Roboto Condensed", bold !important; font-weight: bold !important; letter-spacing: 0px !important; cursor: default !important; }
+
+div[class*="friends-table-header"],
 div[class*="headerText-"],
 div[class*="topic-"],
 div[class*="medium-"],
 div[class*="typing-"],
-div[class*="membersGroup-"],
 div[class*="activityText-"],
 div[class*="body-"],
 div[class*="channelSeparator-"],
-div[class*="friends-online"],
 div[class*="nameDefault-"],
 div[class*="nameHovered-"],
 div[class*="nameCollapsed-"],
 div[class*="nameHoveredCollapsed-"],
 div[class*="total-results"],
-div[class*="header-2N-"],
 div[class*="header-"],
 div[class*="title-3pkaKd title-23FrqZ"],
 
 /* Other */
 h1[class*="title-"],
+h1[class*="old-h1"],
 h2[class*="title-"],
 h5[class*="title-"],
 input[class*="quickMessage-"],
 span[class*="timestamp"]
 { font-family: "Roboto Condensed", sans-serif !important; }
+
+/* User channel status icon */
+.title-3qD0b- .status
+{ top: 0px !important; }
