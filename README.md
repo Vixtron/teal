@@ -1,5 +1,5 @@
 # Teal
-Teal is a dotfiles repository for my Linux teal (btw I use Arch) rice. <br />
+Teal is a dotfiles repository for my Linux (btw I use Arch) rice. <br />
 `install.sh` script for this setup is soon to come. <br />
 
 ## Contents
