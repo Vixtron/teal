@@ -1,8 +1,13 @@
 .medium-2wqF9d
 { display: none !important; mask: none !important; }
 
+.regionSelectFlag-3uwFtG
+{ background-color: unset !important; }
+
 *,
 body,
+.valueChecked-m-4IJZ.sizeDefault-2YlOZr:after,
+.value-2hFrkk:after,
 .card-FDVird:before,
 .guilds-wrapper .guilds .guild.unread:before,
 .guilds-wrapper .guilds .guild.selected:before,
@@ -26,8 +31,27 @@ body,
 /* Codeblock font */
 .theme-dark .message-group .comment .markup code.inline,
 .theme-dark .message-group .comment .markup pre code
-{ font-family: "Roboto", monospace !important; }
+{ font-family: "Roboto Mono", monospace !important; }
 
-/* Global font */
-div[class*="appMount-"] 
+/* Global fonts */
+div[class*="roleName-"],
+div[class*="appMount-"]
 { font-family: "Roboto", sans-serif !important; }
+
+/* Divs */
+div[class*="topic-"],
+div[class*="medium-"],
+div[class*="typing-"],
+div[class*="membersGroup-"],
+div[class*="activityText-"],
+div[class*="body-"],
+div[class*="channelSeparator-"],
+div[class*="title-"],
+div[class*="friends-online"],
+div[class*="nameDefault-"],
+
+/* Other */
+input[class*="quickMessage-"],
+span[class*="timestamp"],
+textarea[class*="textArea-"]
+{ font-family: "Roboto Condensed", sans-serif !important; }
