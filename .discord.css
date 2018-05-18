@@ -34,10 +34,16 @@ code[class*="scrollbar-"]
 { font-family: "Roboto Mono", monospace !important; }
 
 /* Global fonts */
+textarea[class*="textArea-"],
 div[class*="roleName-"],
 div[class*="appMount-"],
 div[class*="connectedAccountName-"],
-div[class*="listName-"]
+div[class*="listName-"],
+div[class*="headerName-"],
+div[class*="headerTag-"],
+div[class*="public-DraftStyleDefault-block"],
+div[class*="headerTabBarWrapper-"],
+div[class*="title-"]
 { font-family: "Roboto", sans-serif !important; }
 
 /* Divs */
@@ -49,16 +55,20 @@ div[class*="membersGroup-"],
 div[class*="activityText-"],
 div[class*="body-"],
 div[class*="channelSeparator-"],
-div[class*="title-"],
 div[class*="friends-online"],
 div[class*="nameDefault-"],
 div[class*="nameHovered-"],
 div[class*="nameCollapsed-"],
 div[class*="nameHoveredCollapsed-"],
+div[class*="total-results"],
+div[class*="header-2N-"],
+div[class*="header-"],
+div[class*="title-3pkaKd title-23FrqZ"],
 
 /* Other */
+h1[class*="title-"],
+h2[class*="title-"],
 h5[class*="title-"],
 input[class*="quickMessage-"],
-span[class*="timestamp"],
-textarea[class*="textArea-"]
+span[class*="timestamp"]
 { font-family: "Roboto Condensed", sans-serif !important; }
