@@ -1,3 +1,9 @@
+/*
+ *  Discord theme by Vix
+ *  Focused on minimal color choice and square design
+ *  Repository LICENSE applies to this code.
+ */
+
 .medium-2wqF9d
 { display: none !important; mask: none !important; }
 
@@ -57,7 +63,7 @@ div[class*="total-results"],
 div[class*="membersGroup-"],
 div[class*="header-2N-"],
 div[class*="friends-online"]
-{ font-family: "Roboto Condensed", bold !important; font-weight: bold !important; letter-spacing: 0px !important; cursor: default !important; }
+{ font-family: var(--font-two), bold !important; font-weight: bold !important; letter-spacing: 0px !important; cursor: default !important; }
 
 div[class*="typing-"],
 div[class*="friends-table-header"],
@@ -78,4 +84,161 @@ h1[class*="old-h1"],
 h2[class*="title-"],
 h5[class*="title-"],
 span[class*="timestamp"]
-{ font-family: "Roboto Condensed", sans-serif !important; }
+{ font-family: var(--font-one), sans-serif !important; }
+
+/*
+ *  Real themeing begins here
+ *  Themed by Vix
+ *  Repository LICENSE applies to this code. 
+ */
+
+:root {
+  /* Theme colors - edit this */
+  /*--bg-color: #242529;
+  --fg-color: #9e9e9e;
+  --sec-bg-color: #303136;
+  --hl-color: #5E8D87;*/
+
+  --bg-color: #141414;
+  --fg-color: #9e9e9e;
+  --sec-bg-color: #191919;
+  --hl-color: #752a2a;
+
+  /* Fonts */
+  --font-one: "Roboto";
+  --font-two: "Roboto Condensed";
+}
+
+/* All background color elements go here */
+.theme-dark .chat form,
+.flex-horizontal>.flex-spacer,
+.search-results-wrap .channel-separator,
+.theme-dark .search-results-wrap .channel-separator .channel-name,
+.theme-dark .resultsGroup-r_nuzN .header-2N-gMV,
+.theme-dark .searchAnswer-3Dz2-q,
+.theme-dark .searchFilter-2ESiM3,
+.side-8zPYf6 .header-2RyJ0Y:first-child,
+.side-8zPYf6 .header-2RyJ0Y,
+.lookFilled-1Gx00P.colorGreen-29iAKY,
+.theme-dark .headerBar-UHpsPw,
+div[class*="friends-table"],
+div[class*="uploadModal-"],
+div[class*="inner-3nWsbo"],
+div[class*="popoutList"],
+div[class*="body-"],
+div[class*="scroller-wrap"],
+div[class*="scrollerWrap-"],
+div[class*="scroller-"],
+div[class*="typing-"],
+div[class*="container-2Thooq"],
+div[class*="menu-"],
+div[class*="topSectionNormal-2-"],
+div[class*="activityUserPopout-"],
+div[class*="search"],
+div[class*="search-results-wrap"],
+div[class*="footerDefault-"]
+{ background-color: var(--bg-color) !important; }
+
+/* All secondary background color elements go here*/
+.theme-dark .title-3qD0b-,
+.theme-dark .quickMessage-1yeL4E,
+.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group,
+.theme-dark .messages-wrapper .messages .message-group-blocked.revealed,
+.header-2o-2hj,
+.option-96V44q:hover,
+.theme-dark .message-group .comment .markup pre code,
+.theme-dark .messages-wrapper .messages .divider:not(.red) div,
+.card-FDVird:before,
+.topSectionSpotify-1lI0-P,
+.lookInverted-2D7oAl.colorGreen-29iAKY,
+.theme-dark .member-3W1lQa.popout-open .content-OzHfo4,
+.private-channels .channel.selected a,
+#friends .friends-table .friends-row:hover,
+.theme-dark #friends .tab-bar .tab-bar-item.selected,
+.theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected),
+div[class*="footer-3mqk7D"],
+div[class*="innerDisabled-"],
+div[class*="body-ZAhrcj"],
+div[class*="topSectionPlaying-"],
+div[class*="item-"]:hover,
+div[class*="btn-close"]:hover,
+div[class*="guild-inner"],
+div[class*="friends-icon"],
+div[class*="jump-to-present-bar"],
+div[class*="new-messages-bar"],
+div[class*="contentHoveredText-"],
+div[class*="content-8biNdB"],
+div[class*="innerEnabled-"],
+div[class*="contentSelectedText-"],
+div[class*="header-"],
+div[class*="message-group-blocked-btn"],
+
+/* Non div elements */
+code[class*="inline"]
+{ background-color: var(--sec-bg-color) !important; }
+
+/* All foreground colors */
+.button-primary,
+.button,
+.theme-dark #friends .tab-bar .tab-bar-item.selected
+{ color: var(--fg-color) !important; }
+
+/* All highlight colors */
+.theme-dark .messages-wrapper .messages .divider:not(.red) span,
+{ color: var(--hl-color) !important; }
+
+/* 
+ *  Other CSS 
+ */
+
+.guilds-wrapper .guilds .guild.selected:before 
+{ background-color: var(--hl-color) !important; }
+
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j 
+{ border: 2px var(--hl-color) solid !important; }
+
+button[type*="submit"]
+{ background-color: unset !important; }
+
+.theme-dark .message-group a
+{ color: var(--hl-color) !important; }
+
+div[class*="userInfoSection-"]
+{ border-top: 1px var(--sec-bg-color) solid !important; }
+
+div[class*="btn-close"],
+div[class*="tabBarContainer-"],
+div[class*="inner-3nWsbo"]
+{ border: unset !important; background}
+
+.chat .divider.divider-red
+{ display: none !important; }
+
+div[class*="search-result"]
+{ background-color: var(--bg-color) !important; }
+
+/* Borders */
+.noShadow-321ZPm,
+.theme-dark .message-group .comment .markup pre,
+.theme-dark .connectedAccount-36nQx7,
+.lookFilled-1Gx00P.colorGreen-29iAKY,
+div[class*="message-group-blocked revealed"],
+div[class*="userPopout-"],
+div[class*="embedInner-"]
+{ border: 1px var(--sec-bg-color) solid !important; }
+
+.lookInverted-2D7oAl.colorGreen-29iAKY
+{ border: 1px var(--bg-color) solid !important; }
+
+div[class*="embedPill-"]
+{ display: none !important }
+
+/* Scrollbars */
+::-webkit-scrollbar-track-piece 
+{ background-color: var(--bg-color) !important; border: unset !important; }
+
+::-webkit-scrollbar-thumb 
+{ background-color: var(--sec-bg-color) !important; border-color: var(--bg-color) !important; }
+
+.theme-dark .quickMessage-1yeL4E
+{ border: unset !important; }
