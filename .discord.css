@@ -94,15 +94,10 @@ span[class*="timestamp"]
 
 :root {
   /* Theme colors - edit this */
-  /*--bg-color: #242529;
+  --bg-color: #242529;
   --fg-color: #9e9e9e;
   --sec-bg-color: #303136;
-  --hl-color: #5E8D87;*/
-
-  --bg-color: #141414;
-  --fg-color: #9e9e9e;
-  --sec-bg-color: #191919;
-  --hl-color: #752a2a;
+  --hl-color: #5E8D87;
 
   /* Fonts */
   --font-one: "Roboto";
@@ -121,6 +116,7 @@ span[class*="timestamp"]
 .side-8zPYf6 .header-2RyJ0Y,
 .lookFilled-1Gx00P.colorGreen-29iAKY,
 .theme-dark .headerBar-UHpsPw,
+.theme-dark .messages-wrapper .messages .divider span,
 div[class*="friends-table"],
 div[class*="uploadModal-"],
 div[class*="inner-3nWsbo"],
@@ -156,6 +152,7 @@ div[class*="footerDefault-"]
 #friends .friends-table .friends-row:hover,
 .theme-dark #friends .tab-bar .tab-bar-item.selected,
 .theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected),
+div[class*="search-bar"],
 div[class*="footer-3mqk7D"],
 div[class*="innerDisabled-"],
 div[class*="body-ZAhrcj"],
